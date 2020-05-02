@@ -1,22 +1,7 @@
 import axios from "axios"
 import * as ActionType from "./../const/index"
 
-export const apiGetData = () => {
-    return dispatch => {
-        axios({
-            method: "GET",
-            url: "https://api.hnpwa.com/v0/news/1.json"
 
-        }).then(res => {
-            dispatch({
-                type: ActionType.GET_DATA,
-                data: res.data
-            })
-        })
-            .catch(err => console.log(err))
-
-    }
-}
 export const search = data => {
     return {
         type: ActionType.SEARCH,
