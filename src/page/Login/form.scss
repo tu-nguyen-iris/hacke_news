@@ -1,0 +1,21 @@
+.formM {
+    p {
+        font-weight: 500;
+        font-size: 2em;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+            sans-serif;
+        text-align: center;
+    }
+    .formInput {
+        width: 100%;
+        border: none;
+        padding: 14px 0 12px 40px;
+        font-weight: 300;
+        outline: none !important;
+        color: #4c4c4c;
+        line-height: 18px;
+        border-bottom: 1px solid #e4e4e4;
+        // margin: 1em;
+        padding: 1.4em;
+    }
+}

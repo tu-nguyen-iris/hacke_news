@@ -1,0 +1,39 @@
+.navbarHome {
+    background-color: #ff742b;
+    padding: 0 !important;
+    .navbar-brand {
+        align-items: center;
+        display: flex;
+        img {
+            width: 58px;
+            margin-left: 8px;
+        }
+        p {
+            color: black;
+            margin-left: 0.5em;
+            line-height: 1em;
+            margin-top: 1em;
+        }
+        @media screen and (max-width: 767px) {
+            p {
+                display: none;
+            }
+        }
+    }
+    .input {
+        width: 100%;
+    }
+    .name {
+        @media screen and (max-width: 992px) {
+            a{    font-size: 0.5em;
+
+            }
+        
+        }
+        p {
+            color: black;
+            font-size: 1em;
+            margin-top: 1em;
+        }
+    }
+}
